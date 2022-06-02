@@ -14,7 +14,7 @@ export default function Home() {
         <h2 className="font-grotesk font-normal md:text-3xl text-base">
           Glad you a re here today! Let’s work together and make amazing things
         </h2>
-        <button className="bg-black text-white rounded-2xl font-medium text-xl px-8 py-4">
+        <button className="bg-black text-white rounded-2xl font-medium sm:text-xl text-base px-8 sm:py-4 py-3">
           See my projects{" "}
         </button>
       </div>

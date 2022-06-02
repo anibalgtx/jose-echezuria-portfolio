@@ -20,7 +20,7 @@ class MyDocument extends Document {
             rel="stylesheet"
           />
         </Head>
-        <body>
+        <body className="bg-gradient-to-r from-purple-400 to-purple-300">
           <Main />
           <NextScript />
         </body>
