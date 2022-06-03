@@ -10,8 +10,8 @@ const Navbar = () => {
     setActive(!active);
   };
   return (
-    <nav className="flex items-center flex-wrap p-3">
-      <a className="inline-flex items-center p-2 mr-4 ">
+    <nav className="flex items-center flex-wrap p-3 relative">
+      <a className="inline-flex items-center p-2 mx-auto lg:static lg:transform-none absolute left-1/2 transform -translate-x-1/2">
         <Logo></Logo>
       </a>
       <HamburgerButton handleClick={handleClick}></HamburgerButton>
