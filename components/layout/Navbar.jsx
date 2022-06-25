@@ -2,6 +2,7 @@ import { NavBarList } from "./NavbarList";
 import { useState } from "react";
 import Logo from "../common/Logo";
 import { HamburgerButton } from "./HamburgerButton";
+import Sidebar from "./Sidebar";
 
 const Navbar = () => {
   const [active, setActive] = useState(false);
@@ -14,7 +15,7 @@ const Navbar = () => {
       <a className="inline-flex items-center p-2 mx-auto lg:static lg:transform-none absolute left-1/2 transform -translate-x-1/2">
         <Logo></Logo>
       </a>
-      <HamburgerButton handleClick={handleClick}></HamburgerButton>
+      <Sidebar />
       <NavBarList active={active}></NavBarList>
     </nav>
   );

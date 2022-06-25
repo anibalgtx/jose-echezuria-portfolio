@@ -11,7 +11,10 @@ module.exports = {
         'sans': ['Roboto', ...defaultTheme.fontFamily.sans],
         'grotesk': ['Space Grotesk', ...defaultTheme.fontFamily.sans],
       },
+      backgroundImage: {
+        'wave-divider': "url('/img/Vector.svg')",
+        'second-divider': "url('/img/2divider.svg')",
+      },
     },
   },
-  plugins: [],
 }
